@@ -1,0 +1,13 @@
+.partners-container img{
+    margin-left: 10px;
+}
+.partners-container{
+    height: 150px;
+    display: flex;
+}
+@media (max-width: 590px) {
+    .partners-container{
+        height: 200px;
+        padding: 5px;
+    }
+}
