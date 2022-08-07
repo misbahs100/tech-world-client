@@ -13,7 +13,7 @@ const AddService = () => {
         const imageData = new FormData();
         imageData.set('key', '2dad6d7bf6cef1ec0ba10a9e39066744');
         imageData.append('image', event.target.files[0]);
-
+console.log("new data: ",imageData)
         axios.post('https://api.imgbb.com/1/upload', imageData)
             .then(res => {
                 console.log("hdfjlk")

@@ -4,6 +4,16 @@ import './ServiceCard.css';
 
 const ServiceCard = ({ service }) => {
     const { imageURL, name, description, _id, price } = service;  // destructering
+
+    const handleSLA = () =>{
+        alert(`Please read the following SERVICE LEVEL AGREEMENT \n 
+                 1. We use third parties for checking your authentication and authorization.
+                 2. Your name, email, phone no, image will be saved in our database for your next visit.
+                 3. We transfer valuable ordered data as JSON object format. No worry, your security of information is provided. Your data is kept safe.
+    
+                 If you accept these agreements, then click OK 
+                 `);
+    }
     return (
         <div class="el-wrapper">
             <div class="box-up">
@@ -23,7 +33,7 @@ const ServiceCard = ({ service }) => {
                 </div>
 
                 <Link to={`order/${_id}`}>
-                    <button class="cart btn" >
+                    <button onClick={handleSLA} class="cart btn" >
                         <span class="price text-warning">{price}</span>
                         <span class="add-to-cart">
                             <span class="txt">Add in order</span>

@@ -1,6 +1,7 @@
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Fade } from 'react-reveal';
 import './HireDevelopers.css';
 
 const HireDevelopers = () => {
@@ -8,7 +9,9 @@ const HireDevelopers = () => {
         <section className="hire-container">
             <div className="p-5 mb-5" style={{ position: 'relative' }}>
                 <h4 className="text-warning text-uppercase">For Smart People</h4>
+                <Fade top>
                 <h1 className="text-white text-uppercase">Do you want to earn with us?</h1>
+                </Fade>
             </div>
             <div className="row w-100">
                 <div className="col-md-5 col-sm-6 col-10 ml-5">

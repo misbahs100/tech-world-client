@@ -6,7 +6,7 @@ import { Link, useHistory, useLocation } from 'react-router-dom';
 import LoginBg from '../../../images/loginBg (1).png';
 import './Login.css';
 import { UserContext } from '../../../App';
-import logo from '../../../images/logo-4.png';
+import logo from '../../../images/logo-t.png';
 
 const Login = () => {
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
@@ -56,7 +56,7 @@ const Login = () => {
       {/* animation ends */}
 
       <div className="container">
-        <Link to="/home"><img style={{ height: '100px' }} src={logo} alt="" /></Link>
+        <Link to="/home"><img style={{ height: '100px', marginTop: "5px"}} src={logo} alt="" /></Link>
       </div>
 
       <div className="row align-items-center w-100" style={{ height: "90vh" }}>

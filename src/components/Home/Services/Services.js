@@ -5,6 +5,7 @@ import ecommerce from '../../../images/ecommerce-1.png';
 import ServiceCard from '../ServiceCard/ServiceCard';
 import './Services.css';
 import gif from '../../../images/giphy.gif';
+import { Fade } from 'react-reveal';
 
 const Services = () => {
     const [services, setServices] = useState([]);
@@ -18,7 +19,9 @@ const Services = () => {
         <section className="services-container p-5">
             <div className="text-center mt-5">
                 <h4 className="text-warning text-uppercase">Our products</h4>
-                <h1 className="text-secondary text-uppercase">Tech services we provide</h1>
+                <Fade top>
+                <h1 className="text-secondary text-uppercase">Explore your favourite products</h1>
+                </Fade>
             </div>
 
             <div className="row w-100 pl-5 pl-md-4 mb-5">

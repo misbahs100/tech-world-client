@@ -9,6 +9,7 @@ import document from '../../../images/document.png';
 import fast from '../../../images/fast.png';
 import code from '../../../images/coding.png';
 import ThemeFutureDetail from '../ThemeFutureDetail/ThemeFutureDetail';
+import { Fade } from 'react-reveal';
 
 const themeFutureData = [
     { icon: settings, text: 'Powefull Admin Interface' },
@@ -25,7 +26,9 @@ const ThemeFuture = () => {
     return (
         <section className="theme-container  p-5 ">
             <div className="text-center mb-5 mt-5">
+                <Fade top>
                 <h4 className="text-warning text-uppercase">What we have done</h4>
+                </Fade>
                 <h1 className="text-secondary text-uppercase">For our website</h1>
             </div>
 

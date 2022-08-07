@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDb3PclsCu379sgFO7bHOJaHlwXt4nUZvU",
-    authDomain: "webpage-service.firebaseapp.com",
-    projectId: "webpage-service",
-    storageBucket: "webpage-service.appspot.com",
-    messagingSenderId: "10030472038",
-    appId: "1:10030472038:web:99d5296deaaf2f773606a7"
-  };
+  apiKey: "AIzaSyAaI_1PsfpLKd4l_4OsFE-eylOcZtUkeiU",
+  authDomain: "tech-world-98a4b.firebaseapp.com",
+  projectId: "tech-world-98a4b",
+  storageBucket: "tech-world-98a4b.appspot.com",
+  messagingSenderId: "488034103692",
+  appId: "1:488034103692:web:c4ae5f363a1f0676b4a6a9"
+};
     export default firebaseConfig;

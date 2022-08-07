@@ -62,12 +62,12 @@ const Sidebar = () => {
                         </li>
                         <li>
                             <Link to="/addService" className="text-warning" >
-                                <FontAwesomeIcon icon={faServer} /> <span>Add Service</span>
+                                <FontAwesomeIcon icon={faServer} /> <span>Add Product</span>
                             </Link>
                         </li>
                         <li>
                             <Link to="/manageService" className="text-warning" >
-                                <FontAwesomeIcon icon={faNetworkWired} /> <span>Manage Service</span>
+                                <FontAwesomeIcon icon={faNetworkWired} /> <span>Manage Product</span>
                             </Link>
                         </li>
                         <li>
