@@ -7,13 +7,13 @@ Live Site:  [https://tech-world-98a4b.web.app/](https://tech-world-98a4b.web.app
 Any user can buy or order any tech product they like as a service. 
 
 Use cases: 
--> Register User
--> Login User
--> View Product
--> Order Product
--> View Ordered Product
--> Checkout and Paying
--> Providing Feedback
+-> Register User \n
+-> Login User  \n
+-> View Product \n
+-> Order Product \n
+-> View Ordered Product \n
+-> Checkout and Paying \n
+-> Providing Feedback \n
 
 User can see animated tech cards, amazing login page.
 
